@@ -1,0 +1,37 @@
+{
+    "metaDataRelatedTables": [
+        {
+            "menu_level": "0",
+            "menu_sub_level": "0",
+            "elem_label": "COMMUNUCATION TEMPLATES",
+            "menu_desc": "",
+            "menu_ref_doc_name": "",
+            "menu_link": "/communicationtemp"
+        },
+        {
+            "menu_level": "0",
+            "menu_sub_level": "0",
+            "elem_label": "DASHBOARD",
+            "menu_desc": "",
+            "menu_ref_doc_name": "",
+            "menu_link": "/dashboard"
+        },
+        {
+            "menu_level": "0",
+            "menu_sub_level": "0",
+            "elem_label": "DOCUMENT MANAGER",
+            "menu_desc": "",
+            "menu_ref_doc_name": "",
+            "menu_link": "/documentmanager"
+        },
+        {
+            "menu_level": "0",
+            "menu_sub_level": "0",
+            "elem_label": "REPORTS",
+            "menu_desc": "",
+            "menu_ref_doc_name": "",
+            "menu_link": "/reports"
+        }
+    ],
+    "status": 200
+}

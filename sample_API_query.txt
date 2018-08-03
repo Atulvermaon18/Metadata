@@ -1,0 +1,63 @@
+http://10.91.16.195:3001/dal/metaDataOperation
+
+Select method for selecting metadata table:
+---------------------------------------------
+methodType :selectSQLMetaDataInfo,
+dbModel : sqlModel,
+database : mssql,
+query: ''
+
+
+Get the list of Database
+------------------------------------
+methodType :sqlDBInfo,
+dbModel : sqlModel,
+database : mssql
+
+Get the list of Tables in Database
+------------------------------------
+methodType :sqlTableInfo,
+dbModel : sqlModel,
+database : mssql
+
+Get the list of Column of Tables in Database
+------------------------------------
+methodType :listSQLDBInfo,
+dbModel : sqlModel,
+database : mssql
+
+Insert row of Tables in Database
+------------------------------------
+methodType :insertSQLMetaDataInfo,
+dbModel : sqlModel,
+database : mssql,
+params: {
+                        "_fl_provider_id": "IEG",
+                        "_fl_created_by": "system2",
+                        "_fl_modified_by": "system",
+                        "_fl_status": "0",
+                        "_fl_curr_ver":"IEG00001",
+                        "_fl_prev_ver":"",
+                        "_fl_meta_type":"1",
+                        "_fl_doc_name":"ACCOUNT_MASTER_SEARCH",
+                        "_fl_doc_type":"S"
+                    }
+
+
+Insert rows(bulk) Tables in Database
+------------------------------------
+methodType :insertSQLMetaDataInfo,
+dbModel : sqlModel,
+database : mssql,
+params: [{
+                        "_fl_provider_id": "IEG",
+                        "_fl_created_by": "system2",
+                        "_fl_modified_by": "system",
+                        "_fl_status": "0",
+                        "_fl_curr_ver":"IEG00001",
+                        "_fl_prev_ver":"",
+                        "_fl_meta_type":"1",
+                        "_fl_doc_name":"ACCOUNT_MASTER_SEARCH",
+                        "_fl_doc_type":"S"
+                    }]
+
